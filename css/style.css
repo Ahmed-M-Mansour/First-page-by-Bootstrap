@@ -1,0 +1,228 @@
+body{
+    height: 2000px; 
+    padding: 70px;
+}
+
+/*   ------------------------     Navbar  ---------------------*/
+
+
+.mans
+{
+    border: 2px solid #fff; 
+    padding:2px; 
+    background-color: #007bff!important;
+    border-radius: 6px;
+    color: #fff !important;
+   
+}
+/* Nav-font  */
+.logo-font
+{
+    font-size: 26px;
+}
+.nav-font
+{
+    font-size: 18px ;
+    color: black !important;
+}
+
+ /*  Main Color of the <a> inside <li>  */
+.li-color 
+{
+    color: #ddd !important; 
+}
+
+
+
+/*   ---------------------  Dropdown Menu    ---------------------*/
+/* Make the color of  the hover in dropdown */
+.a-drop
+{
+    transition: all .2s ;
+}
+.a-drop:hover
+{
+    background-color: #007bff;
+}
+
+/* Make The color of <a> in dropdown Menu */
+.drop-color
+{
+    color: #343A40;
+}
+
+.carousel-indicators li 
+{
+    background-color: #007bff;
+    opacity: .7;
+}
+
+
+.about
+{
+    padding: 20px;
+    margin-top: 20px ;
+    border: 3px dotted #eee;
+    transition: all .4s ease ;
+ 
+}
+.about:hover
+{
+    border: 3px dotted #007bff;
+
+}
+.about h2  span
+{
+    font-size: 22px; 
+    color: #007bff;
+}
+
+.about h4  span
+{
+    font-size: 22px; 
+    color: #007bff;
+}
+
+.about p
+{
+    font-size: 20px;
+}
+
+
+
+/*    -------------   plans  ------------------*/
+
+.plan h2
+{
+   
+    padding: 30px;
+    margin-top: 10px;
+   
+}
+.plan .col-lg-4
+{
+    transition: all .5s ease ;
+    opacity: .8;
+  
+}
+.plan .col-lg-4:hover
+{
+    opacity: 1;
+ 
+}
+
+/* -------------------    Features ------------------------------*/
+
+.break 
+{
+    border-top: 2px solid #007bff;
+    opacity: .3;
+}
+
+
+/*  ---------------------------    Features  ------------------  */ 
+
+.features
+{
+    margin-top: 50px;
+}
+
+
+.features h2
+{
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+}
+.features h2:hover 
+{
+    color: #007bff;
+}
+
+.features .row div
+{
+    border: 2px solid #eee;
+    padding: 30px;
+    opacity: .9;
+    transition:all .4s ;
+   
+}
+
+.features .row div:hover
+{
+    opacity: 1;
+    background-color: #09c;
+    color: #fff;
+}
+.features .row div p
+{
+    font-size: 18px;
+    line-height: 1.9
+    ;
+}
+.features .row div i{
+    font-size: 30px;
+}
+
+
+/*  ---------------------------   Testimonial Section With Carusal ----------*/
+
+.Testimonial
+{
+    background-color: #eee; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+.Testimonial h2
+{
+    font-weight: bold;
+    
+}
+.Testimonial p 
+{
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 10px;
+}
+
+.Testimonial span
+{
+    font-size: 18px; 
+    font-weight: bold; 
+    color: #007bff;
+}
+.Testimonial .carousel-inner
+{
+    min-height: 120px;
+}
+.Testimonial .carousel-indicators
+{
+    position: static;
+}
+
+/* ---------------------------   footer -----------------*/
+
+footer
+{
+   
+    
+    margin-top: 10px;
+}
+footer div i 
+{
+    color: #007bff;
+    cursor: pointer;
+}
+
+footer div span
+{
+    font-size: 40px;
+   
+}
+
+
+

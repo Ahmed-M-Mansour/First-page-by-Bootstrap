@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- meta for mobile responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Page </title>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand mans logo-font" href="#">Mans</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active px-lg-2">
+            <a class="nav-link nav-font " href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item px-lg-2">
+            <a class="nav-link nav-font " id="plan" href="plan"> Services</a>
+          </li>
+
+          <li class="nav-item dropdown px-lg-2">
+            <a class="nav-link dropdown-toggle nav-font " href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Contacts
+            </a>
+            <div class="dropdown-menu col-sm-2 " aria-labelledby="navbarDropdown">
+              <a class="dropdown-item  a-drop li-color nav-font " href="#">Action</a>
+              <a class="dropdown-item  a-drop li-color nav-font " href="#">Another action</a>
+
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- Curesal -->
+
+  <div class=" container-fluid ">
+
+    <div id="MySlider" class="carousel slide  " data-ride="carousel">
+
+      <ol class="carousel-indicators">
+        <li data-target="#MySlider" data-slide-to="0" class="active"></li>
+        <li data-target="#MySlider" data-slide-to="1"></li>
+        <li data-target="#MySlider" data-slide-to="2"></li>
+        <li data-target="#MySlider" data-slide-to="3"></li>
+        <li class="targ" data-target="#MySlider" data-slide-to="4"></li>
+
+      </ol>
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active  ">
+          <img class=" d-block w-100 " src="images/22.jpg" alt="First slide">
+
+          <div class=" carousel-caption text-center ">
+            <h2> Ahmed Mansour </h2>
+            <button type="button" class="btn btn-outline-primary">Read More</button>
+            <button type="button" class="btn btn-outline-primary">Buy Now </button>
+
+          </div>
+
+
+        </div>
+
+        <div class="carousel-item ">
+          <img class="d-block w-100" src="images/33.jpg " alt="Second slide">
+          <div class=" carousel-caption">
+            <h2> Ahmed Mansour </h2>
+            <button type="button" class="btn btn-outline-primary">Read More</button>
+            <button type="button" class="btn btn-outline-primary">Buy Now </button>
+          </div>
+
+        </div>
+
+        <div class="carousel-item  ">
+          <img class=" d-block w-100" src="images/44.jpg" alt="Third slide">
+          <div class=" carousel-caption">
+            <h2> Ahmed Mansour </h2>
+            <button type="button" class="btn btn-outline-primary">Read More</button>
+            <button type="button" class="btn btn-outline-primary">Buy Now </button>
+          </div>
+        </div>
+
+        <div class="carousel-item ">
+          <img class="    d-block w-100" src="images/55.jpg" alt="Third slide">
+          <div class=" carousel-caption">
+            <h2> Ahmed Mansour </h2>
+            <button type="button" class="btn btn-outline-primary">Read More</button>
+            <button type="button" class="btn btn-outline-primary">Buy Now </button>
+          </div>
+        </div>
+
+        <div class="carousel-item ">
+          <img class="    d-block w-100" src="images/66.jpg" alt="Third slide">
+          <div class=" carousel-caption">
+            <h2> Ahmed Mansour </h2>
+            <button type="button" class="btn btn-outline-primary">Read More</button>
+            <button type="button" class="btn btn-outline-primary">Buy Now </button>
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <a class="carousel-control-prev" href="#MySlider" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#MySlider" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+      </a>
+
+    </div>
+
+
+  </div>
+
+  <!------------------------------  Section about me ---------------------->
+
+  <div class="container">
+    <div class="about text-center">
+      <h2 class=" d-none d-lg-block d-none d-md-block d-lg-none"> Hi My Name is <span> Ahmed </span> </h2>
+      <h4 class=" d-none d-sm-block d-md-none  d-block d-sm-none"> Hi My Name is <span> Ahmed </span> </h4>
+      <p>
+        Iam Ahmed Mansour This is My First Template With Bootstrap
+        I Hope you Like it
+      </p>
+    </div>
+  </div>
+
+  <!--------------------------    Section of Plans -->
+  <section class="plan text-center " data-target="plan">
+    <div class="container">
+      <h2>
+        Plans
+      </h2>
+
+      <div class="row">
+
+
+        <div class="col-lg-4 col-md-6  ">
+
+          <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+            <div class="card-header">Normal Plan</div>
+            <div class="card-body">
+              <h5 class="card-title"> Free </h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <button type="button" class="btn btn-secondary">Read More</button>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-4  col-md-6 ">
+
+          <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+            <div class="card-header">Plus Plan</div>
+            <div class="card-body">
+              <h5 class="card-title">20$</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <button type="button" class="btn btn-secondary">Read More</button>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-4  col-md-6  m-md-auto">
+
+          <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+            <div class="card-header">Pemum Plan </div>
+            <div class="card-body">
+              <h5 class="card-title">35$</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <button type="button" class="btn btn-secondary">Read More </button>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+
+    </div>
+  </section>
+
+  <!------------------------- Break   -------------------------->
+  <div class=" container-fluid">
+    <div class="break"> </div>
+  </div>
+
+  <!------------------------- Features    -------------------------->
+
+  <section class="features text-center ">
+    <div class="container">
+      <h2> Our Features </h2>
+
+      <div class="row   ">
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <i class="fa fa-apple"></i>
+          <h3> Expectations </h3>
+          <p>
+            You can place Font Awesome icons just about
+            anywhere using a style prefix and the icon’s
+            alongside text naturally
+            name. We’ve tried to make it so
+            that icons take on the characteristics and appear .
+          </p>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <i class="fa fa-angellist"></i>
+          <h3> Easer </h3>
+          <p></p>
+          name. We’ve tried to make it so
+          that icons take on the characteristics and appear
+          alongside text naturally
+          You can place Font Awesome icons just about
+          anywhere using a style prefix and the icon’s .
+          </p>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 m-md-auto">
+          <i class="fa fa-fighter-jet"></i>
+          <h3> Faster </h3>
+          <p>
+            You can place Font Awesome icons just about
+            anywhere using a style prefix and the icon’s
+            name. We’ve tried to make it so
+            that icons take on the characteristics and appear
+            alongside text naturally
+            on the characteristics.
+          </p>
+        </div>
+
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!--    ------------   Testimonial Carusal -->
+
+  <section class="Testimonial text-center ">
+
+    <div class=" container ">
+      <h2> What Our Clients say </h2>
+      <div id="Testimonial-Slider" class="carousel slide  text-center " data-ride="carousel">
+
+        <div class="carousel-inner ">
+
+          <div class="carousel-item active  ">
+            <p>
+              elit. Fusce elementum enim ut placerat molestie.
+              Donec vitae ex a lacus posuere finibus. Mauris et pulvinar
+              ligula, a lobortis neque. Nunc sagittis feugiat suscipit.
+              placerat et vitae lacus. Donec aliquet, risus ac sagittis
+              finibus, purus justo efficitur est, at suscipit nisi mauris at purus.
+            </p>
+            <span> Ahmed Mansour </span>
+          </div>
+
+          <div class="carousel-item   ">
+            <p>  
+              Nunc non nunc semper, lacinia eros ut, fringilla augue.
+              Integer a molestie metus. Mauris quis enim at magna finibus
+              placerat et vitae lacus. Donec aliquet, risus ac sagittis
+              finibus, purus justo efficitur est, at suscipit nisi mauris at purus.
+            </p>
+            <span> Modtafa Ibrahim  </span>
+          </div>
+
+          <div class="carousel-item  ">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Fusce elementum enim ut placerat molestie.
+              Donec vitae ex a lacus posuere finibus. Mauris et pulvinar              
+              finibus, purus justo efficitur est, at suscipit nisi mauris at purus.
+            </p>
+            <span> Hossam Khaled </span>
+          </div>
+          <div class="carousel-item   ">
+            <p>
+              Donec vitae ex a lacus posuere finibus. Mauris et pulvinar
+              elit. Fusce elementum enim ut placerat molestie.
+              Donec vitae ex a lacus posuere finibus. Mauris et pulvinar
+              ligula, a lobortis neque. Nunc sagittis feugiat suscipit.
+            
+            </p>
+            <span> Mohamed Ali  </span>
+          </div>
+
+        </div>
+        <ol class="carousel-indicators">
+          <li data-target="#Testimonial-Slider" data-slide-to="0" class="active"></li>
+          <li data-target="#Testimonial-Slider" data-slide-to="1"></li>
+          <li data-target="#Testimonial-Slider" data-slide-to="2"></li>
+          <li data-target="#Testimonial-Slider" data-slide-to="3"></li>
+        
+        </ol>
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <footer>
+    
+    <div class="container ">
+
+      <div class="row text-center">   
+      
+     <span class="col-3">  <i class="fa fa-facebook-square "></i>  </span>
+     <span class="col-3">   <i class="fa fa-instagram  "></i>  </span>
+     <span class="col-3">   <i class="fa fa-github   "></i>  </span>
+     <span class="col-3">   <i class="fa fa-twitter "></i>  </span>
+     
+    </div>
+  </div>
+  </footer>
+
+  <script src="js/jquery-3.4.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
